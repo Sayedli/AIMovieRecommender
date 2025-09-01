@@ -1,0 +1,32 @@
+# Python build / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter / pytest caches
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Data and model artifacts
+data/
+models/
+*.npy
+*.pt
+
+# IDE
+.vscode/
+.idea/
